@@ -1,0 +1,172 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971;
+}
+/* Top Bar CellPhone number */
+.top-bar{
+    background: #12232e;
+    height: 2.6rem;
+    padding: .5rem 0;
+}
+.top-bar a{
+    color: #EEFBFB;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    text-decoration: none!important;
+}
+.top-bar a:hover{
+    color: #4da8da;
+}
+/* Nav Bar */
+
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+.nav-item{
+    padding: .5rem;
+}
+.nav-link{
+    color: #203647;
+}
+
+.nav-link.active,
+.nav-link:hover{
+    color: #4da8da!important;
+}
+
+/* Main Banner */
+.fixed{
+    background-image: url('/img/background/code\ 2.png');
+    position: fixed;
+}
+.fixed-background{
+    padding: 10rem 0;
+}
+.banner-text button{
+    background: #12232e;
+    border: none;
+}
+.banner-text button:hover{
+    background-color: #4da8da;
+}
+/* Gallery */
+.gallery a:hover{
+    background: #203647;
+}
+
+/* Carrousel */
+#carousel{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousel-inner{
+    max-height: 40rem!important;
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active{
+    transition: transform 1.3s ease;
+}
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.bg-custom{
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    border-radius: 1rem;
+}
+.bg-custom p{
+    font-size: 2rem;
+}
+.carousel-caption h1{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, .1);
+}
+.carousel-caption h3{
+    font-size: 1.5rem;
+}
+.border-primary{
+    border-top: .2rem solid #4da8da;
+}
+.btn-success{
+    display: block;
+}
+.spotify{
+    display: block;
+}
+/* gifs */
+.gif{
+    background-color: #12232e;
+    min-height: 0!important;
+    padding: .4rem 0!important;
+}
+.svg-inline--fa{
+    color: #EEFBFB;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: .2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px){
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px){
+
+}
+
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  /*-- Fixed Background Image --*/
+  .fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+  }
+  .fixed {
+    z-index: -999!important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+  }

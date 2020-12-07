@@ -45,12 +45,15 @@ body{
 /* Main Banner */
 
 .fixed{
-    background-image: url(/img/background/code.png);
     position: fixed;
+    background: linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(18,35,46,1) 94%);
 }
 
 .fixed-background{
     padding: 10rem 0;
+}
+.banner-text{
+    color: #EEFBFB;
 }
 .banner-text button{
     background: #12232e;

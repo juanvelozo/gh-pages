@@ -43,10 +43,12 @@ body{
 }
 
 /* Main Banner */
+
 .fixed{
-    background-image: url(img/background/code\ 2.png);
+    background-image: url(/img/background/code.png);
     position: fixed;
 }
+
 .fixed-background{
     padding: 10rem 0;
 }

@@ -29,14 +29,13 @@ body{
 
 .fixed{
     position: fixed;
-    background-image: url(img/background/code.png);
 }
 
 .fixed-background{
     padding: 14rem 0;
 }
 .banner-text{
-    color: #EEFBFB;
+    color: #12232e;
 }
 .banner-text button{
     background: #12232e;

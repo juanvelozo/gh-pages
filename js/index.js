@@ -1,6 +1,12 @@
 window.sr = ScrollReveal();
+    sr.reveal('.banner-text', {
+        duration: 2000,
+        origin: 'top',
+        distance: '-100px'
+    });
 
     sr.reveal('.gallery', {
+        delay:300,
         duration: 2700,
         origin: 'bottom',
         distance: '-100px'

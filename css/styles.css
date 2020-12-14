@@ -16,13 +16,11 @@ body{
 .nav-item{
     padding: .5rem;
 }
-.nav-link{
-    color: #203647;
+.nav-link.active{
+    color: #900d0d!important;
 }
-
-.nav-link.active,
 .nav-link:hover{
-    color: #4da8da!important;
+    color: #cd0a0a!important;
 }
 
 /* Main Banner  */
@@ -35,21 +33,42 @@ body{
     padding: 14rem 0;
 }
 .banner-text{
-    color: #12232e;
+    color: #900d0d;
 }
 .banner-text button{
-    background: #12232e;
+    background: #a20a0a;
     border: none;
 }
 .banner-text button:hover{
-    background-color: #4da8da;
+    background-color: #cf1b1b;
+}
+/* Experience*/
+.experience{
+    background-color: #2b2b28;
+}
+.experience-img__1,
+.experience-img__2{
+    border-radius: 1rem;
+}
+.experience-img__3{
+    border-radius: 2.4rem;
+    clip-path: circle(67.5% at 73% 38%);
+
+}
+.experience-text ul{
+    list-style: none;
+    padding-top: 4rem;
 }
 /* Gallery */
 
 .gallery img{
     border-radius: 2.4rem;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
 }
-
+/* sobre mi */
+.aboutme{
+    background-color: #2b2b28;
+}
 /* Carrousel */
 #carousel{
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
@@ -95,7 +114,7 @@ body{
 
 /* footer */
 footer{
-    background-color: #12232e;
+    background-color: #530303;
     padding: 1rem 2rem 3rem;
 }
 footer img{
@@ -124,7 +143,7 @@ footer .svg-inline--fa:hover{
     color: #4da8da;
 }
 .socket{
-    background-color: #203647;
+    background-color: #471010;
     border-top: .1rem solid #616971;
 }
 

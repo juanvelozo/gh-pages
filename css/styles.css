@@ -3,7 +3,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #616971;
 }
-
+svg{
+    width: 100%;
+}
 /* Nav Bar */
 .navbar-brand img{
     height: 3rem;
@@ -18,6 +20,7 @@ body{
 }
 .nav-link.active{
     color: #900d0d!important;
+    font-weight: 800;
 }
 .nav-link:hover{
     color: #cd0a0a!important;
@@ -33,7 +36,7 @@ body{
     padding: 14rem 0;
 }
 .banner-text{
-    color: #900d0d;
+    color: #2b2b28;
 }
 .banner-text button{
     background: #a20a0a;
@@ -50,7 +53,9 @@ body{
 .experience-img__2{
     border-radius: 1rem;
 }
-.experience-img__3{
+.experience-img__3,
+.experience-img__4,
+.experience-img__5{
     border-radius: 2.4rem;
     clip-path: circle(67.5% at 73% 38%);
 
@@ -124,7 +129,6 @@ footer img{
 footer p, footer a,
 .socket a{
     color: white;
-    text-decoration: none;
 }
 ul.social{
     list-style-type: none;
@@ -138,13 +142,21 @@ ul.social li{
 }
 footer .svg-inline--fa{
     font-size: 2.3rem;
+    transition: 0.3s ease;
 }
 footer .svg-inline--fa:hover{
-    color: #4da8da;
+    color: #cf1b1b;
 }
 .socket{
     background-color: #471010;
     border-top: .1rem solid #616971;
+}
+.socket p a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.socket p a:hover{
+    color: #cf1b1b;
 }
 
 

@@ -5,15 +5,16 @@ body{
 }
 svg{
     width: 100%;
+    height: 100%;
 }
 /* Nav Bar */
-.navbar-brand img{
-    height: 3rem;
-}
 .navbar{
     font-size: 1.15rem;
     font-weight: 600;
     letter-spacing: .1rem;
+}
+.header .navbar{
+    background-color: transparent !important;
 }
 .nav-item{
     padding: .5rem;
@@ -33,7 +34,7 @@ svg{
 }
 
 .fixed-background{
-    padding: 14rem 0;
+    padding: 16rem 0;
 }
 .banner-text{
     color: #2b2b28;
@@ -49,26 +50,37 @@ svg{
 .experience{
     background-color: #2b2b28;
 }
+.experience-section__2{
+    padding: 6rem 0;
+}
 .experience-img__1,
 .experience-img__2{
     border-radius: 1rem;
 }
-.experience-img__3,
-.experience-img__4,
-.experience-img__5{
+.experience-section__2 img{
+    width: 20rem;
     border-radius: 2.4rem;
     clip-path: circle(67.5% at 73% 38%);
-
 }
+
 .experience-text ul{
     list-style: none;
-    padding-top: 4rem;
+    padding: 5rem 0 3rem 0;
+}
+.skills-img{
+    border-radius: 1rem;
 }
 /* Gallery */
 
 .gallery img{
     border-radius: 2.4rem;
     clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}
+.gallery-img__6{
+    padding: 0;
+    border: #2b2b28 .2rem solid;
+    border-radius: .3rem!important;
+    clip-path: none!important;
 }
 /* sobre mi */
 .aboutme{
@@ -159,17 +171,69 @@ footer .svg-inline--fa:hover{
     color: #cf1b1b;
 }
 
-
-
-
-
-/* Devices under 1199px (xl) */
-@media (max-width: 1199.98px){
-
+/* back to top btn */
+#scroll{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    cursor: pointer;
+    width: 2.4rem;
+    height: 3.6rem;
+    background-color: #cf1b1b;
+    text-indent: -9999px;
+    display: none;
+    border-radius: 60px;
 }
+#scroll span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+#scroll:hover{
+    background-color: #a20a0a;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha (opacity=100)";
+}
+
+
+/* ----------MEDIA QUERY--------------- */
 /* Devices under 768px (md) */
 @media (max-width: 767.98px){
-
+    .experience-section__item{
+        padding: 3rem auto;
+    }
+    .experience-section__2{
+        padding: 4rem 0;
+    }
+    .experience-section__2 img{
+        width: 22rem;
+        clip-path: none;
+        padding: 0 auto;
+    }
+}
+/* Devices under 425px (sm) */
+@media (max-width: 424.98px){
+    .experience-section__2 img{
+        width: 15rem;
+    }
+    #scroll{
+        position: fixed;
+        right: 6rem;
+        bottom: 2rem;
+        cursor: pointer;
+        width: 3rem;
+        height: 4.2rem;
+        text-indent: -9999px;
+        display: none;
+        border-radius: 60px;
+    }    
 }
 
 

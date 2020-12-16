@@ -4,7 +4,7 @@ window.sr = ScrollReveal();
         origin: 'top',
         distance: '-100px'
     });
-    sr.reveal('.experience-text', {
+    sr.reveal('.skills-img', {
         delay:300,
         duration: 1300,
         origin: 'top',
@@ -23,25 +23,19 @@ window.sr = ScrollReveal();
     });
     sr.reveal('.experience-img__3', {
         delay: 600,
-        duration: 2000,
-        origin: 'left',
+        duration: 1400,
+        origin: 'bottom',
         distance: '-100px'
     });
     sr.reveal('.experience-img__4', {
         delay: 600,
-        duration: 2000,
+        duration: 1400,
         origin: 'bottom',
         distance: '-100px'
     });
     sr.reveal('.experience-img__5', {
         delay: 600,
-        duration: 2000,
-        origin: 'right',
-        distance: '-100px'
-    });
-    sr.reveal('.gallery', {
-        delay:300,
-        duration: 2700,
+        duration: 1400,
         origin: 'bottom',
         distance: '-100px'
     });
@@ -64,3 +58,17 @@ window.sr = ScrollReveal();
         distance: '-100px',
         duration: 2700,
     });
+
+// back to top btn
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+        $('#scroll').fadeIn();
+    } else {
+        $('#scroll').fadeOut();
+    }
+});
+
+$('#scroll').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+});

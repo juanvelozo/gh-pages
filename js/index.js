@@ -4,10 +4,35 @@ window.sr = ScrollReveal();
         origin: 'top',
         distance: '-100px'
     });
-    sr.reveal('.skills-img', {
-        delay:300,
+    sr.reveal('.responsive', {
+        delay: 600,
+        origin: 'top',
+        distance: '-100px',
+        duration: 2000,
+    });
+
+    sr.reveal('.skills-img__1', {
+        delay:400,
         duration: 1300,
         origin: 'top',
+        distance: '-100px'
+    });
+    sr.reveal('.skills-img__2', {
+        delay:600,
+        duration: 1300,
+        origin: 'bottom',
+        distance: '-100px'
+    });
+    sr.reveal('.skills-img__3', {
+        delay:800,
+        duration: 1300,
+        origin: 'top',
+        distance: '-100px'
+    });
+    sr.reveal('.skills-img__4', {
+        delay:1000,
+        duration: 1300,
+        origin: 'bottom',
         distance: '-100px'
     });
     sr.reveal('.experience-img__1', {
@@ -24,7 +49,7 @@ window.sr = ScrollReveal();
     sr.reveal('.experience-img__3', {
         delay: 600,
         duration: 1400,
-        origin: 'bottom',
+        origin: 'left',
         distance: '-100px'
     });
     sr.reveal('.experience-img__4', {
@@ -36,7 +61,7 @@ window.sr = ScrollReveal();
     sr.reveal('.experience-img__5', {
         delay: 600,
         duration: 1400,
-        origin: 'bottom',
+        origin: 'right',
         distance: '-100px'
     });
     sr.reveal('.gallery-img__1', {
@@ -57,6 +82,12 @@ window.sr = ScrollReveal();
         origin: 'right',
         distance: '-100px',
         duration: 2700,
+    });
+    sr.reveal('.gallery-img__6', {
+        delay: 600,
+        origin: 'top',
+        distance: '-100px',
+        duration: 2000,
     });
 
 // back to top btn

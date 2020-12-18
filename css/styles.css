@@ -31,16 +31,16 @@ svg{
 }
 
 /* Main Banner  */
-
-.fixed{
-    position: fixed;
-}
-
-.fixed-background{
-    padding: 16rem 0;
+.banner{
+    height: 60rem;
 }
 .banner-text{
+    padding: 20rem 0;
     color: #2b2b28;
+}
+.banner-text h1{
+    font-size: 7rem;
+    font-weight: 300;
 }
 .banner-text button{
     background: #a20a0a;
@@ -56,14 +56,9 @@ svg{
 .experience-section__2{
     padding: 2rem 0;
 }
-.experience-img__1,
-.experience-img__2{
-    border-radius: 1rem;
-}
 .experience-section__item img{
     clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
     border-radius: 2.4rem;
-
 }
 .experience-text ul{
     list-style: none;
@@ -86,10 +81,7 @@ svg{
 .aboutme{
     background-color: #2b2b28;
 }
-.contact ul li{
-    list-style: none;
-}
-.contact ul li a{
+.contact a{
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -98,7 +90,6 @@ svg{
 .contact-img{
     border-radius: 2rem;
     box-shadow: 0 0 .5rem .2rem #2b2b286e;
-
 }
 
 /* footer */
@@ -175,8 +166,56 @@ footer .svg-inline--fa:hover{
 }
 
 /* ------------MEDIA QUERY--------------- */
-@media screen and (max-width: 1440px){
-    .fixed-background{
-        padding: 24rem 0;
+@media screen and (max-width: 1024px){
+    .banner-text{
+        padding: 10rem;
+    }
+    .banner-text h1{
+        font-size: 4rem;
+    }
+    .banner-text h3{
+        font-size: 1.3rem;
+    }
+    .experience-img__1{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner-text{
+        padding: 10rem 0;
+    }
+    .banner-text h1{
+        font-size: 4rem;
+    }
+    .banner-text h3{
+        font-size: 1.3rem;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .experience-img__1{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px){
+    .banner-text{
+        padding: 10rem 0;
+    }
+    .banner-text h1{
+        font-size: 4rem;
+    }
+    .banner-text h3{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .banner-text{
+        padding: 10rem 0;
+    }
+    .banner-text h1{
+        font-size: 4rem;
+    }
+    .banner-text h3{
+        font-size: 1.3rem;
     }
 }

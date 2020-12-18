@@ -12,273 +12,429 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- scroll reveal -->
     <script src="js/scrollreveal.js"></script>
-    <!-- <script>ScrollReveal({ reset: true });</script> -->
     <!-- font  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   </head>
 
   <body>
-
-    <!-- Nav Bar -->
+    <!-- -------------------Nav bar------------------------------- -->
     <header class="header">
       <nav class="navbar fixed-nav bg-light navbar-light navbar-expand-lg">
         <div class="container">
           <a href="index.html" class="navbar-brand">
-            <h4 class="text-dark mt-3">Juan Velozo <i class="fas fa-code"></i></h4>
+            <h4 class="text-dark mt-3">
+              Juan Velozo <i class="fas fa-code"></i>
+            </h4>
           </a>
-  
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
           </button>
-  
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link"></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link active">Inicio</a>
+                <a href="#" class="nav-link active">
+                  Inicio
+                </a>
               </li>
               <li class="nav-item">
-                <a href="#exp" class="nav-link">Mi experiencia</a>
+                <a href="#exp" class="nav-link">
+                  Mi experiencia
+                </a>
               </li>
               <li class="nav-item">
-                <a href="#gallery" class="nav-link">Portfolio</a>
+                <a href="#gallery" class="nav-link">
+                  Portfolio
+                </a>
               </li>
               <li class="nav-item">
-                <a href="#abme" class="nav-link">Sobre mi</a>
+                <a href="#abme" class="nav-link">
+                  Sobre mi
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
-
-  <!-- Banner -->
-  <div class="fixed-background mb-5">
-    <div class="row">
-      <div class="col-12 text-center banner-text">
-        <h1>Hola</h1>
-        <h3 class="py3">...estaba esperándote.</h3>
-        <a href="#Introduction" class="btn btn-danger mt-3">Empezar</a>
+    <!-- -------------------Start------------------------------- -->
+    <div class="fixed-background mb-5">
+      <div class="row">
+        <div class="col-12 text-center banner-text">
+          <h1>
+            Hola
+          </h1>
+          <h3 class="py3">
+            ...estaba esperándote.
+          </h3>
+          <a href="#Introduction" class="btn btn-danger mt-3">
+            Empezar
+          </a>
+        </div>
+      </div>
+      <div class="fixed-wrap">
+        <div class="fixed"></div>
       </div>
     </div>
-    <div class="fixed-wrap">
-      <div class="fixed"></div>
+    <!-- -------------------Introduction------------------------------- -->
+    <div class="container" id="Introduction">
+      <div class="row">
+        <div class="col-md-auto">
+          <h2 class="text-center text-dark mt-lg-5">
+            Bienvenido a mi Curriculum
+          </h2>
+          <div class="border-top border-danger w-25 mx-auto my-3"></div>
+          <p class="text-center lead my-5">
+            Soy Juan Velozo, tengo 21 años y actualmente estoy en búsqueda laboral activa como Desarrollador Front End Jr. Hice este sitio a modo de carta de presentación para cualquier empleador que tenga en consideración mi perfil.<br>De más está aclarar que todo el contenido (exceptuando obviamente algunas imágenes, los Frameworks y Scripts utilizados) de esta página está hecho 100% por mí.
+          </p>
+        </div>
+        <div class="col-md-auto">
+          <h1 class="text-center text-dark my-5">
+            Diseño responsive
+          </h1>
+          <p class="text-center lead ">
+            Diseñé este curriculum de forma responsive para que se adapte a todas las resoluciones de pantallas en distintos dispositivos*.
+          </p>
+          <img src="img/exp/responsive.png" alt="img" class="mx-auto responsive w-100">
+          <p class="text-monospace text-muted text-right">
+            *(Únicamente válido hasta 1920x1080p).
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- Introduction -->
-  <div class="container" id="Introduction">
-    <div class="row">
-      <div class="col-md-auto">
-        <h2 class="text-center text-dark mt-lg-5">Bienvenido a mi Curriculum</h2>
+    <!-- -------------------Experience------------------------------- -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#2b2b28" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,288C384,288,480,288,576,272C672,256,768,224,864,186.7C960,149,1056,107,1152,85.3C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <div class="experience" id="exp">
+      <div class="col-12 text-center pt-5">
+        <h1 class="text-light pt-4">
+          Experiencia
+        </h1>
         <div class="border-top border-danger w-25 mx-auto my-3"></div>
-        <p class="text-center lead my-5">
-          Soy Juan Velozo, tengo 21 años y actualmente estoy en búsqueda laboral activa como Desarrollador Front End Jr. Hice este sitio a modo de carta de presentación para cualquier empleador que tenga en consideración mi perfil.
+        <p class="lead text-light">
+          Trabajos pasados y competencias laborales
         </p>
       </div>
-      <div class="col-md-auto">
-        <h1 class="text-center text-dark my-5">Diseño responsive</h1>
-        <p class="text-center lead ">
-          Diseñé este curriculum de forma responsive para que se adapte a todas las resoluciones de pantallas en distintos dispositivos*.
-        </p>
-        <img src="img/exp/responsive.png" alt="img" class="mx-auto responsive w-100">
-        <p class="text-monospace text-muted text-right">
-          *(Únicamente válido hasta 1920x1080p).
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- Experience -->
-  <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#2b2b28" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,288C384,288,480,288,576,272C672,256,768,224,864,186.7C960,149,1056,107,1152,85.3C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-  </svg>
-  <div class="experience" id="exp">
-    <div class="col-12 text-center pt-5">
-      <h1 class="text-light pt-4">Experiencia</h1>
-      <div class="border-top border-danger w-25 mx-auto my-3"></div>
-      <p class="lead text-light">Trabajos pasados y competencias laborales</p>
-    </div>
-    <div class="container" >
-      <div class="row my-5">
-        <div class="col-lg-6">
-          <h1 class="font-weight-bold text-center text-light my-3">Estudios</h1>
-          <img src="img/exp/studies.jpg" alt="img" class="w-100 experience-img__1">
-        </div>
-        <div class="col-lg-6 text-light experience-text">
-          <ul>
-            <li><p>Diseño Gráfico</p></li>
-            <li><p>Universidad de Morón Licenciatura en Publicidad</p></li>
-            <li><p>Instituto Sagrado Corazón de Jesús Merlo</p></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row my-5">
-        <div class="col-lg-auto col-md-auto m-lg-auto">
-          <h1 class="text-center text-light font-weight-bold mb-5">Habilidades</h1>
-          <p class="text-light mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum quis totam quos dolorum eos dolore blanditiis facere, nisi nam laudantium quibusdam veritatis, saepe velit ea. Nobis cum molestiae magnam.
-          </p>
-        </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
-              <img src="img/exp/madewith/html.png" alt="img" class="skills-img__1 w-100">
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
-              <img src="img/exp/madewith/css.png" alt="img" class="skills-img__2 w-100">
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
-              <img src="img/exp/madewith/javascript.png" alt="img" class="skills-img__3 w-100">
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
-              <img src="img/exp/madewith/bootstrap.png" alt="img" class="skills-img__4 w-100">
-            </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row experience-section__2 mt-5">
-        <h1 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center text-light font-weight-bold mb-5">Otros proyectos</h1>
-        <div class="col-md-4 experience-section__item">
-          <img src="img/exp/wordpress.jpg" alt="img" class="experience-img__3 w-100">
-          <p class="text-light my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quis mollitia rem a, facilis perspiciatis iure ipsa delectus accusantium. Libero vero eveniet necessitatibus aperiam, totam quae aliquam doloremque fugit temporibus.
-          </p>
-          <a href="https://juanvelozovg.wordpress.com/" target="_blank"><button class="btn btn-danger my-4">Leer en Wordpress</button></a>
-        </div>
-
-        <div class="col-md-4 experience-section__item">
-          <img src="img/exp/IMG_2073_Original.jpg" alt="img" class="experience-img__4 w-100">
-          <p class="text-light my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing lit. Dolor quis mollitia rem a, facilis perspiciatis iure ipsa delectus accusantium. Libero vero eveniet necessitatibus aperiam, totam quae aliquam doloremque fugit temporibus.
-          </p>
-          <a href="https://open.spotify.com/artist/5X2wmw6HPbAjk1l82TgVkm?si=DN1n69FaSoSCTWwM9kCi4w" target="_blank"><button class="btn btn-success my-4">Escuchame en Spotify</button></a>
-        </div>
-
-        <div class="col-md-4 experience-section__item">
-          <img src="img/exp/others.jpg" alt="img" class="experience-img__5 w-100">
-          <p class="text-light my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quis mollitia rem a, facilis perspiciatis iure ipsa delectus accusantium. Libero vero eveniet necessitatibus aperiam, totam quae aliquam doloremque fugit temporibus.
-          </p>
-          <button class="btn btn-light my-4">Ver más</button>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#2b2b28" fill-opacity="1" d="M0,64L40,58.7C80,53,160,43,240,69.3C320,96,400,160,480,202.7C560,245,640,267,720,256C800,245,880,203,960,181.3C1040,160,1120,160,1200,186.7C1280,213,1360,267,1400,293.3L1440,320L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
-  </svg>
-  <!-- Portfolio -->
-  <div class="col-12 text-center mt-5">
-    <h1 class="text-dark pt-4">Portfolio</h1>
-    <div class="border-top border-danger w-25 mx-auto my-3"></div>
-    <p class="lead">Mis diseños</p>
-  </div>
-  <div class="container" id="gallery">
-    <div class="row my-5 gallery">
-      <div class="col-md-4 my-4 ">
-        <img src="img/portfolio/stitch.png" alt="image" class="w-100 gallery-img__1">
-        <h4 class="my-4">Flat illustration Disney&copy;</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam, at asperiores, facere corrupti beatae aperiam ab sapiente repudiandae voluptate laudantium. Atque, omnis. Explicabo necessitatibus aut doloribus! Hic, dolorum autem!</p>
-        <a href="https://www.behance.net/gallery/99788127/Disney-Flat-Ilustration" target="_blank" class="btn btn-outline-dark btn-md">Mirar ahora</a>
-      </div>
-      <div class="col-md-4 my-4">
-        <img src="img/portfolio/ravn.png" alt="image" class="w-100 gallery-img__2">
-        <h4 class="my-4">Flat illustration Cartoon Network&copy;</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam, at asperiores, facere corrupti beatae aperiam ab sapiente repudiandae voluptate laudantium. Atque, omnis. Explicabo necessitatibus aut doloribus! Hic, dolorum autem!</p>
-        <a href="https://www.behance.net/gallery/99307681/Cartoon-Network-Flat-Art-Concept" target="_blank" class="btn btn-outline-dark btn-md">Mirar ahora</a>
-      </div>
-      <div class="col-md-4 my-4">
-        <img src="img/portfolio/rockos.png" alt="image" class="w-100 gallery-img__3">
-        <h4 class="my-4">Flat illustration Nickelodeon&copy;</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam, at asperiores, facere corrupti beatae aperiam ab sapiente repudiandae voluptate laudantium. Atque, omnis. Explicabo necessitatibus aut doloribus! Hic, dolorum autem!</p>
-        <a href="https://www.behance.net/gallery/99664861/Nicktoons-Flat-Illustration" target="_blank" class="btn btn-outline-dark btn-md">Mirar ahora</a>
-      </div>
-      <div class="col-md-4 my-4 ">
-        <img src="img/portfolio/comic.png" alt="image" class="w-100 gallery-img__1">
-        <h4 class="my-4">Comic concept</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam, at asperiores, facere corrupti beatae aperiam ab sapiente repudiandae voluptate laudantium. Atque, omnis. Explicabo necessitatibus aut doloribus! Hic, dolorum autem!</p>
-      </div>
-      <div class="col-md-4 my-4">
-        <img src="img/portfolio/outlinered.png" alt="image" class="w-100 gallery-img__2">
-        <h4 class="my-4">Outline portrait</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam, at asperiores, facere corrupti beatae aperiam ab sapiente repudiandae voluptate laudantium. Atque, omnis. Explicabo necessitatibus aut doloribus! Hic, dolorum autem!</p>
-      </div>
-      <div class="col-md-4 my-4">
-        <img src="img/portfolio/panda.png" alt="image" class="w-100 gallery-img__3">
-        <h4 class="my-4">Character design</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam, at asperiores, facere corrupti beatae aperiam ab sapiente repudiandae voluptate laudantium. Atque, omnis. Explicabo necessitatibus aut doloribus! Hic, dolorum autem!</p>
-      </div>
-      <div class="col-lg-6 col-md-auto my-lg-auto">
-            <h1 class="text-dark font-weight-bold my-3">Esta web</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum quis totam quos dolorum eos dolore blanditiis facere, nisi nam laudantium quibusdam veritatis, saepe velit ea. Nobis cum molestiae magnam.
-            </p>
-            <a href="https://github.com/juanvelozo/gh-pages" target="_blank" class="btn btn-outline-dark btn-md mb-3"><i class="fab fa-github"></i>Ver en GitHub</a>
+      <div class="container" >
+        <div class="row my-5">
+          <div class="col-lg-6">
+            <h1 class="font-weight-bold text-center text-light my-3">
+              Estudios
+            </h1>
+            <img src="img/portfolio/yo.png" alt="img" class="w-100 experience-img__1">
           </div>
-          <div class="col-lg-6 my-lg-auto my-md-5">
-            <img src="img/portfolio/screenshot.png" alt="img" class="w-100 gallery-img__6">
+          <div class="col-lg-6 text-light experience-text">
+            <ul>
+              <li class="mt-5">
+                <p>
+                  Desarrollo web (Autodidacta) Desde 2020: HTML5, CSS3 (Grid & Flexbox), Vanilla Javascript, Jquery, Bootstrap Framework, Git, GitHub, Figma, Visual Studio Code.
+                </p>
+              </li>
+              <li class="mt-5">
+                <p>
+                  Diseño Gráfico (Autodidacta): Adobe Photoshop (desde 2016) Adobe Lightroom (desde 2018), Adobe Illustrator (desde 2020), Adobe Premiere Pro (desde 2020), Adobe Audition (desde 2020).
+                </p>
+              </li>
+              <li class="mt-5">
+                <p>
+                  Universidad de Morón (En curso: Licenciatura en Publicidad desde 2020. Incompleto: Licenciatura en periodismo desde 2019.)
+                </p>
+              </li>
+              <li class="mt-5">
+                <p>
+                  Instituto Sagrado Corazón de Jesús Merlo (Estudios secundarios hasta 2018, Título de Operador de PC).
+                </p>
+              </li>
+            </ul>
           </div>
-  
-    </div>
-  </div>
-  <!-- sobre mí -->
-  <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#2b2b28" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-  </svg>
-  <div class="aboutme" >
-    <div class="col-12 text-center pt-5">
-      <h1 class="text-light pt-4" id="abme">Sobre mí</h1>
-      <div class="border-top border-danger w-25 mx-auto my-3"></div>
-      <p class="lead text-light">Dónde podes encontrarme</p>
-    </div>
-  <div class="container my-5">
-    <div class="row py-4">
-      <div class="col-lg-4 col-md-auto  my-lg-auto">
-        <h1 class="text-light text-center font-weight-bold mb-3">DISEÑO RESPONSIVE</h1>
-        <p class="text-light text-center mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum quis totam quos dolorum eos dolore blanditiis facere, nisi nam laudantium quibusdam veritatis, saepe velit ea. Nobis cum molestiae magnam.
-        </p>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <img src="img/carrousel/IMG_2275_Original.JPG" alt="img" class="w-100">
-      </div>
-    </div>
-  </div>
-    <div class="jumbotron py-5 mb-0">
       <div class="container">
-        <div class="row">
-          <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-            <h4>¿Te interesa trabajar conmigo?</h4>
+        <div class="row my-5">
+          <div class="col-lg-auto col-md-auto m-lg-auto">
+            <h1 class="text-center text-light font-weight-bold mb-5">
+              Habilidades
+            </h1>
+            <p class="text-light text-center mb-5">
+              Este año 2020, mientras preparaba una presentación de Powerpoint tuve una revelación; decidí que quería dedicarme al diseño gráfico. Lamentablemente escapaba de mis posibilidades ya que no tenía una PC muy potente, pero aún así no me desanimé y empecé a hacer ilustraciones en Inkscape. Al no encontrar trabajo como diseñador gráfico freelance, descubrí el mundo del FrontEnd, y me metí de a poco en este mundillo.<br><br>Hoy estoy aprendiendo de forma completamente autodidacta como se desarrollan las aplicaciones webs, como funciona internet y los lenguajes de programación. Esta página es mi primer proyecto, y está hecho con el Framework<span class="font-weight-bold">Bootstrap</span>, aparte de<span class="font-weight-bold">HTML, CSS</span> y <span class="font-weight-bold"></span>Javascript.</span><br><br>También estoy aprendiendo sobre UI y UX, y mi próximo objetivo es aprender <span class="font-weight-bold"></span>NodeJS.</span>, <span class="font-weight-bold"></span>ReactJS.</span>, <span class="font-weight-bold"></span>Angular.</span> y <span class="font-weight-bold"></span>PHP.</span>, y también empezar otros proyectos para poder mostrar mis habilidades como Desarrollador Jr.
+            </p>
           </div>
-          <div class="col-md-5 col-lg-4 col-xl-3">
-            <a href="#" class="btn btn-danger btn-lg mt-4 mt-md-0">Contactame hoy</a>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <img src="img/exp/madewith/html.png" alt="img" class="skills-img__1 w-100">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <img src="img/exp/madewith/css.png" alt="img" class="skills-img__2 w-100">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <img src="img/exp/madewith/javascript.png" alt="img" class="skills-img__3 w-100">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <img src="img/exp/madewith/bootstrap.png" alt="img" class="skills-img__4 w-100">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row experience-section__2 mt-5">
+          <h1 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center text-light font-weight-bold mb-5">
+            Otros proyectos
+          </h1>
+          <div class="col-md-4 text-center experience-section__item">
+            <img src="img/exp/wordpress.jpg" alt="img" class="experience-img__3 w-100">
+            <p class="text-light my-3 ">
+              Cuando empecé la carrera de Periodismo en la universidad, estaba muy entusiamado con el periodismo cultural de cine y videojuegos. Tanto fue así que en 2018 empecé mi blog personal en WordPress. <br> Mi mayor hito fue haber sido publicado en 
+              <a class="font-weight-bold" href="https://espadaypluma.com/2018/09/08/el-videojuego-como-fenomeno-social-y-cultural/" target="_blank">un blog de España sobre análisis cultural de videojuegos
+              </a> 
+              en ese mismo año.
+            </p>
+            <a href="https://juanvelozovg.wordpress.com/" target="_blank">
+              <button class="btn btn-light my-4">
+                <i class="fab fa-wordpress"></i> 
+                Leer en Wordpress
+              </button>
+            </a>
+          </div>
+          <div class="col-md-4 text-center experience-section__item">
+            <img src="img/exp/IMG_2073_Original.jpg" alt="img" class="experience-img__4 w-100">
+            <p class="text-light my-3 ">
+              Mis proyectos no están exclusivamente arraigados a la tecnología. También estoy en una banda de Indie Rock llamada No Soy Juana. Si bien la pandemia del 2020 nos frenó bastante, seguimos en pie y con muchos planes para los siguientes años. <br> Este año logramos lanzar nuestros primeros dos singles en Spotify.
+            </p>
+            <a href="https://open.spotify.com/artist/5X2wmw6HPbAjk1l82TgVkm?si=DN1n69FaSoSCTWwM9kCi4w" target="_blank">
+              <button class="btn btn-success my-4">
+                <i class="fab fa-spotify"></i> 
+                Escuchame en Spotify
+              </button>
+            </a>
+          </div>
+          <div class="col-md-4 text-center experience-section__item">
+            <img src="img/exp/others.jpg" alt="img" class="experience-img__5 w-100">
+            <p class="text-light my-3 ">
+              Si, también tuve trabajos normales. He lavado coches, pintado casas, atendido comercios. Mi trabajo favorito fue el de técnico de PC en una tienda de informática, aunque lamentablemente no le iba muy bien, pero si aprendí mucho. <br> Desde chico me gustan las computadores y la tecnología en general, y es por esto que quiero dedicarme al desarrollo de páginas y aplicaciones web.
+            </p>
+            <button class="btn btn-danger my-4">
+              <i class="far fa-laugh-squint"></i>
+              Ver más
+            </button>
           </div>
         </div>
       </div>
     </div>
-  
-    <footer>
-        <div class="container">
-         <div class="row text-light text-center py-4 justify-content-center">
-            <div class="col-sm-10 col-md-8 col-lg-6">
-              <h1 class="text-light my-5">Juan Velozo</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam doloribus, placeat cum iusto aliquam soluta tempora eaque mollitia vel accusamus deserunt provident explicabo cumque eligendi suscipit quisquam nihil ea!</p>
-             <ul class="social pt-3">
-                <li><a href="https://www.instagram.com/juanvelozo.exe/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/juanvelozo99" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/juanvelozo" target="_blank"><i class="fab fa-github"></i></a></li>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#2b2b28" fill-opacity="1" d="M0,64L40,58.7C80,53,160,43,240,69.3C320,96,400,160,480,202.7C560,245,640,267,720,256C800,245,880,203,960,181.3C1040,160,1120,160,1200,186.7C1280,213,1360,267,1400,293.3L1440,320L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+    </svg>
+    <!-- -------------------Gallery------------------------------- -->
+    <div class="col-12 text-center mt-5">
+      <h1 class="text-dark pt-4">Portfolio</h1>
+      <div class="border-top border-danger w-25 mx-auto my-3"></div>
+      <p class="lead">
+        Estos son algunos diseños que hice en softwares de diseño (Inkscape e Illustrator).
+      </p>
+    </div>
+    <div class="container" id="gallery">
+      <!-- Gallery -->
+      <div class="row my-5 gallery">
+        <div class="col-md-4 my-4 ">
+          <img src="img/portfolio/stitch.png" alt="image" class="w-100 gallery-img__1">
+          <h4 class="my-4">
+            Flat illustration Disney&copy;
+          </h4>
+          <p>
+            Esta es una serie de ilustraciones que hice en estilo plano o "Flat Art" de distintos personajes de Disney&copy;, como <span class="font-weight-bold">Mulan</span>, <span class="font-weight-bold">Stitch</span> y otros.
+          </p>
+          <a href="https://www.behance.net/gallery/99788127/Disney-Flat-Ilustration" target="_blank" class="btn btn-outline-dark btn-md">
+            Mirar ahora
+          </a>
+        </div>
+        <div class="col-md-4 my-4">
+          <img src="img/portfolio/ravn.png" alt="image" class="w-100 gallery-img__2">
+          <h4 class="my-4">
+            Flat illustration Cartoon Network&copy;
+          </h4>
+          <p>
+            Esta es una serie de ilustraciones que hice en estilo plano o "Flat Art" de distintos personajes de Cartoon Network&copy;, como 
+            <span class="font-weight-bold">Coraje, el perro cobarde</span>, <span class="font-weight-bold">Teen Titans</span> y otros.
+          </p>
+          <a href="https://www.behance.net/gallery/99307681/Cartoon-Network-Flat-Art-Concept" target="_blank" class="btn btn-outline-dark btn-md">Mirar ahora</a>
+        </div>
+        <div class="col-md-4 my-4">
+          <img src="img/portfolio/rockos.png" alt="image" class="w-100 gallery-img__3">
+          <h4 class="my-4">
+            Flat illustration Nickelodeon&copy;
+          </h4>
+          <p>
+            Esta es una serie de ilustraciones que hice en estilo plano o "Flat Art" de distintos personajes de Nickelodeon&copy;, como <span class="font-weight-bold">Bob Esponja</span>, <span class="font-weight-bold">Ren & Stimpy</span> y otros.
+          </p>
+          <a href="https://www.behance.net/gallery/99664861/Nicktoons-Flat-Illustration" target="_blank" class="btn btn-outline-dark btn-md">
+            Mirar ahora
+          </a>
+        </div>
+        <div class="col-md-4 my-4 ">
+          <img src="img/portfolio/comic.png" alt="image" class="w-100 gallery-img__1">
+          <h4 class="my-4">
+            Comic concept
+          </h4>
+          <p>
+            También incursioné en el mundo del cómic, aunque este proyecto está incompleto y pienso revisitarlo cuando tenga un poco más de experiencia en ilustración digital.
+          </p>
+        </div>
+        <div class="col-md-4 my-4">
+          <img src="img/portfolio/outlinered.png" alt="image" class="w-100 gallery-img__2">
+          <h4 class="my-4">
+            Outline portrait
+          </h4>
+          <p>
+            Este diseño fue hecho a partir de una foto, son simplemente contornos de un modelo pero en un estilo monocromático y minimalista.
+          </p>
+        </div>
+        <div class="col-md-4 my-4">
+          <img src="img/portfolio/panda.png" alt="image" class="w-100 gallery-img__3">
+          <h4 class="my-4">
+            Character design
+          </h4>
+          <p>
+            Esto es un bosquejo de diseño de personaje. Tomé algo simple como un panda e intenté darle una identidad, partiendo de la base de que un personaje es un contenedor de personalidad más allá de un dibujo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------Repositories------------------------------- -->
+    <div class="col-12 text-center mt-5">
+      <h1 class="text-dark pt-4">
+        Repositorios
+      </h1>
+      <div class="border-top border-danger w-25 mx-auto my-3"></div>
+      <p class="lead">
+          Mis proyectos de desarrollador.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-6 col-md-auto my-lg-5 text-center">
+          <h1 class="text-dark font-weight-bold my-3">
+            Esta web
+          </h1>
+          <p class="px-3">
+            Este es mi primer proyecto público. Se me ocurrió que la mejor forma de demostrar qué es lo que sé es <span class="font-weight-bold">hacerlo</span>. <br> Aparte de las tecnologías ya mencionadas, esta página tiene ScrollReveal, SmoothScroll y algunas imágenes SVG para darle un estilo más dinámico y atractivo. 
+          </p>
+          <a href="https://github.com/juanvelozo/gh-pages" target="_blank" class="btn btn-outline-dark btn-md mb-3">
+            <i class="fab fa-github"></i>
+            Ver en GitHub
+          </a>
+        </div>
+        <div class="col-lg-5 my-lg-3 my-md-5">
+          <img src="img/portfolio/screenshot.png" alt="img" class="w-100 gallery-img__6">
+        </div>
+      </div>
+    </div>
+    <!-- -------------------About me------------------------------- -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#2b2b28" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <div class="aboutme" >
+      <div class="col-12 text-center pt-5">
+        <h1 class="text-light pt-4" id="abme">
+          Sobre mí
+        </h1>
+        <div class="border-top border-danger w-25 mx-auto my-3"></div>
+        <p class="lead text-light">
+          Dónde podes encontrarme
+        </p>
+      </div>
+      <div class="container my-5">
+        <div class="row py-4">
+          <div class="col-lg-6 col-md-auto my-lg-auto">
+            <h1 class="text-light text-center font-weight-bold mb-3">
+              Contactame
+            </h1>
+            <div class="contact">
+              <ul>
+                <li>
+                  <p class="text-light">
+                    <i class="fas fa-at"></i>
+                    Mandame un mail: <br> 
+                    <a href="mailto:juanvelozomoreno18@gmail.com">
+                      juanvelozomoreno18@gmail.com
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p class="text-light">
+                    <i class="fas fa-phone"></i>
+                    Contactame por teléfono: <br>
+                    <a href="tel:+541128770941">
+                      +54 11 2877 0941
+                    </a>
+                  </p>
+                </li>
               </ul>
             </div>
           </div>
-       </div>
-  </div>
-    </footer>
-    <div class="socket text-light text-center py-3">
-      <p>&copy; <a href="https://juanvelozo.github.io/gh-pages/">Juanvelozo.github.io</a> </p>
+          <div class="col-lg-6">
+            <img src="img/background/code.png" alt="img" class="w-100 contact-img">
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron py-5 mb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+              <h4>
+                ¿Te interesa trabajar conmigo?
+              </h4>
+            </div>
+            <div class="col-md-5 col-lg-4 col-xl-3">
+              <a href="https://tapmybio.com/users/juanvelozo_/" target="_blank" class="btn btn-danger btn-lg mt-4 mt-md-0">
+                Contactame hoy
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row text-light text-center py-4 justify-content-center">
+            <div class="col-sm-10 col-md-8 col-lg-6">
+                <h1 class="text-light my-5">
+                  Juan Velozo
+                </h1>
+                <p>
+                  Quedo a disposición suya, estimado/a empleador, para cualquier consulta que tenga, así también para concretar una entrevista de trabajo en caso de que le interese mi perfil. <br><br> Muchas gracias por haber llegado hasta este punto. A continuación tiene mis redes en caso de que desee contactarme por otros medios.
+                </p>
+                <ul class="social pt-3">
+                  <li>
+                    <a href="https://www.instagram.com/juanvelozo.exe/" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/juanvelozo99" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/juanvelozo" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
+    <div class="socket text-light text-center py-3">
+        <p>&copy; 
+          <a href="https://juanvelozo.github.io/gh-pages/">
+            Juanvelozo.github.io
+          </a>
+        </p>
+    </div>
+
+    <!-- -------------------SCRIPTS------------------------------- -->
     <!-- Back to top button -->
     <a href="javascript:void(0);" id="scroll" title="Scroll to top" style="display: none;"><span></span></a>
-
     <!-- JQuery -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <!-- Popper JS -->

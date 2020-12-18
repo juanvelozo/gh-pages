@@ -61,30 +61,44 @@ svg{
     border-radius: 1rem;
 }
 .experience-section__item img{
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    border-radius: 2.4rem;
+
 }
 .experience-text ul{
     list-style: none;
     padding: 5rem 0 3rem 0;
 }
-.skills-img{
-    border-radius: 1rem;
+.skills-img__3{
+    border-radius: 2rem;
 }
 /* Gallery */
-
 .gallery img{
     border-radius: 2.4rem;
     clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
 }
 .gallery-img__6{
-    padding: 0;
-    border: #2b2b28 .2rem solid;
+    box-shadow: 0 0 .5rem .2rem #2b2b286e;
     border-radius: .3rem!important;
     clip-path: none!important;
 }
 /* sobre mi */
 .aboutme{
     background-color: #2b2b28;
+}
+.contact ul li{
+    list-style: none;
+}
+.contact ul li a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #900d0d;
+}
+.contact-img{
+    border-radius: 2rem;
+    box-shadow: 0 0 .5rem .2rem #2b2b286e;
+
 }
 
 /* footer */
@@ -160,3 +174,9 @@ footer .svg-inline--fa:hover{
     -ms-filter: "alpha (opacity=100)";
 }
 
+/* ------------MEDIA QUERY--------------- */
+@media screen and (max-width: 1440px){
+    .fixed-background{
+        padding: 24rem 0;
+    }
+}

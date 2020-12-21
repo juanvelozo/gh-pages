@@ -180,6 +180,18 @@ footer .svg-inline--fa:hover{
         padding: 0;
     }
 }
+@media screen and (max-height: 768px){
+    .banner-text{
+        padding: 12rem 0;
+    }
+    .banner-text h1{
+        font-size: 5rem;
+    }
+    .banner-text h3{
+        font-size: 1.3rem;
+    }
+
+}
 @media screen and (max-width: 768px){
     .banner-text{
         padding: 10rem 0;

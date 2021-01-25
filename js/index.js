@@ -1,3 +1,4 @@
+// Scroll Reveal
 window.sr = ScrollReveal();
     sr.reveal('.banner-text', {
         duration: 2000,

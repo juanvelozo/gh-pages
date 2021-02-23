@@ -66,14 +66,51 @@ svg{
 .skills-img__3{
     border-radius: 2rem;
 }
-/* Gallery */
-.gallery img{
-    border-radius: 1.4rem;
-}
-.gallery-img__6{
+/* Repository */
+.repository-img__2{
     box-shadow: 0 0 .5rem .2rem #2b2b286e;
     border-radius: .3rem!important;
     clip-path: none!important;
+}
+.repository-img__1{
+    box-shadow: 0 0 .5rem .2rem #2b2b286e;
+    border-radius: .3rem!important;
+    clip-path: none!important;
+}
+/* Gallery */
+.gallery img{
+    border-radius: 1.4rem;
+
+}
+.gallery-img__1{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+}
+.gallery-img__2{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+}
+.gallery-img__3{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+}
+.gallery-img__4{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+}
+.gallery-img__5{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+}
+.gallery-img__6{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
 }
 /* sobre mi */
 .aboutme{
@@ -132,18 +169,19 @@ footer .svg-inline--fa:hover{
     color: #cf1b1b;
 }
 
-/* back to top btn */
+/* btns index Z */
 #scroll{
     position: fixed;
     right: 1.6rem;
     bottom: 2rem;
     cursor: pointer;
-    width: 2.4rem;
+    width: 3.6rem;
     height: 3.6rem;
     background-color: #cf1b1b;
     text-indent: -9999px;
     display: none;
     border-radius: 60px;
+    transition: all 0.3s ease;
 }
 #scroll span{
     position: absolute;
@@ -162,6 +200,66 @@ footer .svg-inline--fa:hover{
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha (opacity=100)";
 }
+/* #linkedinbtn{
+    position: fixed;
+    right: 1.6rem;
+    bottom: 6.5rem;
+    cursor: pointer;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: #28527a;
+    text-indent: -9999px;
+    display: none;
+    border-radius: 60px;
+    transition: all 0.3s ease;
+}
+#linkedinbtn span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+#linkedinbtn:hover{
+    background-color: #346b9e;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha (opacity=100)";
+}
+#upworkbtn{
+    position: fixed;
+    right: 1.6rem;
+    bottom: 11rem;
+    cursor: pointer;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: #35c228;
+    text-indent: -9999px;
+    display: none;
+    border-radius: 60px;
+    transition: all 0.3s ease;
+}
+#upworkbtn span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+#upworkbtn:hover{
+    background-color: rgb(20, 161, 32);
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha (opacity=100)";
+} */
 
 /* ------------MEDIA QUERY--------------- */
 @media screen and (max-width: 1024px){

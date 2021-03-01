@@ -1,3 +1,39 @@
+$(document).ready(function(){
+  $('#textdescription1').hide();
+  $("#btndescription1").on("click", function(e) {
+    var $button = $(this);
+    $('#textdescription1').toggle(500,
+      function(){
+        $button.val($(this).is(':visible')
+            ? 'Ocultar descripción'
+            : 'Mostrar descripción');
+    });
+    e.preventDefault();
+});
+  $('#textdescription2').hide();
+  $("#btndescription2").on("click", function(e) {
+    var $button = $(this);
+    $('#textdescription2').toggle(500,
+      function(){
+        $button.val($(this).is(':visible')
+            ? 'Ocultar descripción'
+            : 'Mostrar descripción');
+    });
+    e.preventDefault();
+});
+  $('#textdescription3').hide();
+  $("#btndescription3").on("click", function(e) {
+    var $button = $(this);
+    $('#textdescription3').toggle(500,
+      function(){
+        $button.val($(this).is(':visible')
+            ? 'Ocultar descripción'
+            : 'Mostrar descripción');
+    });
+    e.preventDefault();
+});
+});
+
 window.sr = ScrollReveal();
 sr.reveal(".banner-text", {
   duration: 2000,
@@ -125,7 +161,6 @@ sr.reveal(".repository-img__1", {
   distance: "-100px",
   duration: 2700,
 });
-
 
 // back to top btn
 $(window).scroll(function () {

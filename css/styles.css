@@ -28,7 +28,7 @@ svg {
     color: #cd0a0a;
     border-radius: 50%;
     border-top-color: transparent;
-    animation: loader 2s linear infinite;
+    animation: loader 1.2s linear infinite;
 }
 @keyframes loader{
     25%{

@@ -1,45 +1,55 @@
-$(document).ready(function(){
-  $('#textdescription1').hide();
-  $("#btndescription1").on("click", function(e) {
+
+$(window).on("load", function () {
+  $(".loader-container").fadeOut(1500);
+});
+$(document).ready(function () {
+  setTimeout(function () {
+    $("#banner-text")
+      .removeClass("d-none");
+  }, 1000);
+});
+$(document).ready(function () {
+  setTimeout(function () {
+    $("#header")
+      .removeClass("d-none");
+  }, 1000);
+});
+
+$(document).ready(function () {
+  $("#textdescription1").hide();
+  $("#btndescription1").on("click", function (e) {
     var $button = $(this);
-    $('#textdescription1').toggle(500,
-      function(){
-        $button.val($(this).is(':visible')
-            ? 'Ocultar descripción'
-            : 'Mostrar descripción');
+    $("#textdescription1").toggle(500, function () {
+      $button.val(
+        $(this).is(":visible") ? "Ocultar descripción" : "Mostrar descripción"
+      );
     });
     e.preventDefault();
-});
-  $('#textdescription2').hide();
-  $("#btndescription2").on("click", function(e) {
+  });
+  $("#textdescription2").hide();
+  $("#btndescription2").on("click", function (e) {
     var $button = $(this);
-    $('#textdescription2').toggle(500,
-      function(){
-        $button.val($(this).is(':visible')
-            ? 'Ocultar descripción'
-            : 'Mostrar descripción');
+    $("#textdescription2").toggle(500, function () {
+      $button.val(
+        $(this).is(":visible") ? "Ocultar descripción" : "Mostrar descripción"
+      );
     });
     e.preventDefault();
-});
-  $('#textdescription3').hide();
-  $("#btndescription3").on("click", function(e) {
+  });
+  $("#textdescription3").hide();
+  $("#btndescription3").on("click", function (e) {
     var $button = $(this);
-    $('#textdescription3').toggle(500,
-      function(){
-        $button.val($(this).is(':visible')
-            ? 'Ocultar descripción'
-            : 'Mostrar descripción');
+    $("#textdescription3").toggle(500, function () {
+      $button.val(
+        $(this).is(":visible") ? "Ocultar descripción" : "Mostrar descripción"
+      );
     });
     e.preventDefault();
-});
+  });
 });
 
 window.sr = ScrollReveal();
-sr.reveal(".banner-text", {
-  duration: 2000,
-  origin: "top",
-  distance: "-100px",
-});
+
 sr.reveal(".responsive", {
   delay: 600,
   origin: "top",
